@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Warum so viele Menschen ihre Leber von innen unterstützen</title>
+<link rel="icon" href="https://nupureshop.com/cdn/shop/files/nupure-favicon.png?crop=center&height=32&v=1704810304&width=32">
+<style>
+  :root{
+    --plum:#4f7000;          /* headline band */
+    --plum-d:#2f4400;        /* dark mechanism band */
+    --badge:#7ea800;         /* numbered badge + accents */
+    --cream:#f4f8e8;         /* alternating section bg */
+    --sand:#eaf0d8;          /* block 08 bg */
+    --ink:#1a1a1a;
+    --body:#3a3a3a;
+    --muted:#8a8a8a;
+    --line:#e6e0d8;
+    --check:#28a05a;
+    --star:#f5a623;
+    --verified-bg:#e8f5ec;
+    --verified-tx:#1e7a3c;
+    --cta:#d9694a;           /* offer button (matches template) */
+    --cta-d:#c65b3e;
+    --quote-bg:#eef6da;
+    --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;overflow-x:clip}
+  body{background:#fff;color:var(--body);font-family:var(--sans);font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  /* Image hardening: blocks long-press save on iOS/Android, right-click menu,
+     and drag-out. Deterrent only — the CDN URL stays publicly reachable. */
+  img{-webkit-user-select:none;-moz-user-select:none;user-select:none;
+      -webkit-touch-callout:none;-webkit-user-drag:none;user-drag:none;
+      pointer-events:none}
+  a{color:inherit}
+  .wrap{max-width:980px;margin:0 auto;padding:0 22px}
+  .narrow{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---- image placeholders ---- */
+  .ph{position:relative;border:2px dashed #cfc6ba;border-radius:14px;background:#faf7f3;
+      display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;
+      min-height:120px;text-align:center;padding:18px}
+  .ph .dim{font:700 13px/1.2 var(--sans);color:#9a8f80;letter-spacing:.04em}
+  .ph .ty{font:500 12px/1.3 var(--sans);color:#b3a898;text-transform:uppercase;letter-spacing:.08em}
+  .ph.filled{position:relative;padding:0;border:0;background:none;min-height:0;display:block;overflow:hidden;border-radius:14px}
+  .ph.filled::before{display:none;}
+  .ph.filled>.dim,.ph.filled>.ty,.ph.filled>span{display:none;}
+  /* natural aspect: full column width, height follows the asset. Nothing is cropped. */
+  .ph.filled>img{position:static;width:100%;height:auto;display:block;border-radius:inherit}
+  /* opt-in hard crop to the slot's box, for photographic assets only */
+  .ph.filled.crop{aspect-ratio:var(--ar,4/3)}
+  .ph.filled.crop>img{position:absolute;inset:0;height:100%;object-fit:cover}
+  .rcard .ph.filled{border-radius:0}
+
+  /* ---- AI transparency labels ------------------------------------------
+     Small corner label on machine-generated / machine-edited visuals.
+     Assets are inlined as data URIs so the page stays self-contained on
+     GitHub Pages / Netlify (no extra CDN upload, no extra request).
+     Tune size here: first value = mobile floor, % = scales with the image,
+     last value = desktop cap.                                          */
+  :root{
+    --ai-mod:url("data:image/png;base64,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");
+    --ai-gen:url("data:image/png;base64,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");
+    --ai-w-hero:clamp(86px,17%,112px);
+    --ai-w-ugc:clamp(72px,26%,104px);
+    --ai-opacity:.9;
+    /* the AI GENERATED asset ships with a 50%-white plate, which loses
+       contrast on darker photos; this sits behind it as a safety net */
+    --ai-plate:rgba(255,255,255,.45);
+  }
+  .ailabel{position:absolute;right:8px;bottom:8px;z-index:3;
+           background-repeat:no-repeat;background-size:100% 100%;
+           opacity:var(--ai-opacity);pointer-events:none;
+           filter:drop-shadow(0 1px 2px rgba(0,0,0,.22))}
+  .ailabel.mod{background-image:var(--ai-mod);width:var(--ai-w-hero);aspect-ratio:300/65}
+  .ailabel.gen{background-image:var(--ai-gen);width:var(--ai-w-ugc);aspect-ratio:300/57;
+               background-color:var(--ai-plate);border-radius:999px}
+  /* overrides the generic .ph.filled>span{display:none} placeholder rule */
+  .ph.filled>span.ailabel{display:block}
+
+  /* ---- headline band ---- */
+  .hband{background:var(--plum);padding:54px 22px}
+  .hband h1{max-width:820px;margin:0 auto;color:#fff;font-family:var(--serif);
+            font-size:40px;line-height:1.24;font-weight:700;text-align:center;letter-spacing:-.01em}
+
+  /* ---- intro ---- */
+  .intro{padding:46px 0 8px;text-align:center}
+  .intro p{margin:0;font-size:18px;line-height:1.72}
+  .intro b{color:var(--ink)}
+
+  /* ---- numbered blocks ---- */
+  .block{padding:52px 0}
+  .block.alt{background:var(--cream)}
+  .block .grid,.tiers .grid{display:grid;grid-template-columns:minmax(0,44%) minmax(0,1fr);gap:38px;align-items:start}
+  .badge{width:44px;height:44px;border-radius:50%;background:var(--badge);color:#fff;
+         font:700 18px/44px var(--sans);text-align:center;margin:0 0 16px}
+  .block h2{margin:0 0 16px;color:var(--ink);font-size:27px;line-height:1.28;font-weight:700;letter-spacing:-.01em}
+  .block p{margin:0 0 15px}
+  .block p:last-of-type{margin-bottom:0}
+
+  ul.checks{list-style:none;margin:0 0 22px;padding:0}
+  ul.checks li{position:relative;padding:0 0 0 34px;margin:0 0 13px;line-height:1.55}
+  ul.checks li::before{content:"";position:absolute;left:0;top:3px;width:21px;height:21px;border-radius:50%;
+                       background:var(--check)}
+  ul.checks li::after{content:"";position:absolute;left:6px;top:9px;width:9px;height:5px;
+                      border-left:2.5px solid #fff;border-bottom:2.5px solid #fff;transform:rotate(-45deg)}
+
+  .softcta{display:inline-block;margin-top:6px;font-weight:700;color:var(--ink);
+           text-decoration:none;font-size:17px}
+  .softcta:hover{text-decoration:underline}
+
+  /* ---- doctor quote ---- */
+  .dquote{margin:22px 0 6px;background:var(--quote-bg);border-left:4px solid var(--badge);
+          border-radius:0 10px 10px 0;padding:20px 22px}
+  .dquote p{margin:0;font-style:italic;color:#38431f}
+  .dattr{margin:14px 0 0;font-weight:700;color:var(--ink);font-style:normal;font-size:15px;line-height:1.45}
+
+  /* ---- pull quotes (block 07) ---- */
+  .pquote{border-top:1px solid var(--line);padding:20px 0 0;margin:0 0 20px}
+  .pquote:first-of-type{border-top:0;padding-top:0}
+  .pquote p{margin:0 0 8px;font-style:italic;color:#4a4a4a}
+  .pquote cite{font-style:normal;font-weight:700;color:var(--ink);font-size:15px}
+
+  .ugc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
+
+  /* ---- dark mechanism band ---- */
+  .darkband{background:var(--plum-d);padding:48px 0 54px;text-align:center}
+  .darkband h2{margin:0 0 26px;color:#fff;font-size:22px;font-weight:800;
+               text-transform:uppercase;letter-spacing:.09em}
+  .darkband .ph{max-width:440px;margin:0 auto;border-color:rgba(255,255,255,.32);background:rgba(255,255,255,.07)}
+  .darkband .ph .dim{color:#d6e3b4}.darkband .ph .ty{color:#b8c993}
+  .darkband .softcta{color:#fff;margin-top:26px}
+
+  /* ---- tiers ---- */
+  .tiers{padding:54px 0}
+  .tiers h2{margin:0 0 26px;text-align:center;color:var(--ink);font-size:22px;font-weight:800;
+            text-transform:uppercase;letter-spacing:.09em}
+  .tcards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+  /* inside the side-by-side grid the cards stack in one column */
+  .tiers .grid .tcards{grid-template-columns:1fr;gap:14px;margin-top:0}
+  /* the ingredients asset is a 3:1 strip, so centre it against the card stack */
+  .tiers .grid .col-media{align-self:center}
+  .tcard{background:var(--cream);border-radius:14px;padding:20px 22px}
+  .tcard .tnum{width:30px;height:30px;border-radius:50%;background:var(--badge);color:#fff;
+               font:700 14px/30px var(--sans);text-align:center;margin:0 0 10px}
+  .tcard h3{margin:0 0 7px;color:var(--ink);font-size:17px;font-weight:700}
+  .tcard p{margin:0;font-size:15.5px;line-height:1.55}
+
+  /* ---- reviews ---- */
+  .revs{padding:10px 0 56px}
+  .revs h2{margin:0 0 28px;color:var(--ink);font-size:27px;font-weight:700;line-height:1.28}
+  .rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .rcard{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;
+         box-shadow:0 2px 10px rgba(0,0,0,.04);display:flex;flex-direction:column}
+  .rcard .ph{border-radius:0;border-width:0 0 2px 0}
+  .rbody{padding:22px 20px 24px}
+  .rname{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 4px}
+  .rname b{color:var(--ink);font-size:16px}
+  .vbadge{background:var(--verified-bg);color:var(--verified-tx);font-size:12px;font-weight:700;
+          border-radius:20px;padding:3px 9px;white-space:nowrap}
+  .rmeta{margin:0 0 8px;color:var(--muted);font-size:13px}
+  .rstars{color:var(--star);letter-spacing:2px;font-size:16px;margin:0 0 10px}
+  .rtext{margin:0;font-style:italic;font-size:15.5px;line-height:1.58;color:#4a4a4a}
+
+  /* ---- offer card ---- */
+  .offerwrap{padding:6px 0 60px}
+  .offer{max-width:560px;margin:0 auto;background:#fff;border:1px solid var(--line);
+         border-radius:18px;box-shadow:0 6px 28px rgba(0,0,0,.07);padding:34px 30px 28px;text-align:center}
+  .offer h2{margin:0 0 22px;color:var(--ink);font-size:25px;line-height:1.3;font-weight:700}
+  .offer .ph{max-width:340px;margin:0 auto 26px}
+  .btn{display:block;background:var(--cta);color:#fff;text-decoration:none;border-radius:12px;
+       padding:18px 22px 15px;transition:background .15s}
+  .btn:hover{background:var(--cta-d)}
+  .btn .bmain{display:block;font-weight:800;font-size:19px;letter-spacing:.03em;text-transform:uppercase}
+  .btn .bsub{display:block;font-size:14px;font-weight:500;opacity:.94;margin-top:5px}
+  .odiv{border:0;border-top:1px solid var(--line);margin:24px 0 18px}
+  .demand{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:700;
+          color:var(--ink);font-size:15px;margin:0 0 10px}
+  .demand .lbl{color:#c9252b}
+  .bar{width:96px;height:11px;border-radius:20px;background:#eee;overflow:hidden}
+  .bar i{display:block;height:100%;width:84%;background:#c9252b;border-radius:20px}
+  .stock{margin:0 0 8px;font-weight:700;color:var(--ink);font-size:15px}
+  .ship{margin:0;color:#1e7a3c;font-weight:700;font-size:15px}
+
+  /* ---- footer ---- */
+  footer{border-top:1px solid var(--line);padding:30px 0 46px;text-align:center}
+  footer .cr{margin:0 0 12px;color:#6a6a6a;font-size:14px}
+  .flinks{margin:0 0 20px;font-size:14px}
+  .flinks a{color:#6a6a6a;text-decoration:underline;margin:0 5px}
+  .disc{max-width:640px;margin:0 auto;color:#a8a8a8;font-size:12.5px;line-height:1.6}
+  .disc + .disc{margin-top:9px}
+
+  /* ---- responsive ---- */
+  @media (max-width:899px){
+    .hband{padding:40px 20px}
+    .hband h1{font-size:31px}
+    .block{padding:40px 0}
+    .block .grid,.tiers .grid{grid-template-columns:1fr;gap:26px}
+    .block .grid .col-media,.tiers .grid .col-media{order:-1}
+    .block h2{font-size:24px}
+    .tcards{grid-template-columns:1fr}
+    .rgrid{grid-template-columns:1fr}
+    .revs h2{font-size:23px}
+  }
+  @media (max-width:560px){
+    .wrap,.narrow{padding:0 16px}
+    .hband h1{font-size:27px}
+    .ugc{gap:8px}
+    .ugc .ailabel{right:6px;bottom:6px}
+    .offer{padding:26px 20px 24px}
+    .offer h2{font-size:22px}
+    .btn .bmain{font-size:17px}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== SECTION 01 · HEADLINE BAND  (required) ===== -->
+<section class="hband">
+  <h1>Warum so viele Menschen ihre Leber von innen unterstützen</h1>
+</section>
+
+<!-- ===== SECTION 02 · INTRO  (required) ===== -->
+<section class="intro"><div class="narrow">
+  <p><b>Ständig müde, aufgebläht und energielos? Vielleicht braucht Ihre Leber Unterstützung.</b> Ihre Leber arbeitet rund um die Uhr, um Nährstoffe zu verarbeiten und wichtige Stoffwechselfunktionen zu unterstützen. Doch moderne Gewohnheiten, geprägt von verarbeiteten Lebensmitteln, Alkohol, Stress und unregelmäßigen Mahlzeiten, machen es wichtiger denn je, dieses lebenswichtige Organ zu unterstützen.</p>
+</div></section>
+
+<!-- ===== SECTION 03 · BLOCK 01 · WIRKSTUFEN (ingredients) =====
+     Brief-Bild: Image 1 ===================================== -->
+<section class="block alt"><div class="wrap"><div class="grid">
+  <div class="col-media" style="align-self:center">
+    <div class="ph filled" id="img-01"><img src="images/Image%201%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="5 Ebenen der Unterstützung in nur einer Kapsel" loading="eager"></div>
+  </div>
+  <div class="col-copy">
+    <div class="badge">1</div>
+    <h2>5 Ebenen der Unterstützung in nur einer Kapsel</h2>
+    <ul class="checks">
+      <li>Cholin für eine normale Leberfunktion</li>
+      <li>Unterstützung eines normalen Fettstoffwechsels</li>
+      <li>Artischockenextrakt hilft dabei, Entzündungen zu reduzieren, den Cholesterinspiegel zu senken und die Leberwerte zu verbessern.</li>
+      <li>Mariendistel und Igelstachelbart unterstützen die Zellregeneration.</li>
+      <li>Lactobacillus paracasei D3-5 wirkt wie eine Schutzbarriere, die die Belastung der Leber sowie Fettansammlungen im Lebergewebe reduziert.</li>
+    </ul>
+    <a class="softcta" data-atc href="https://nupureshop.com/products/probaflor-hepa?bundle_variant=15623821066622">👉 Starten Sie jetzt Ihre Routine →</a>
+  </div>
+</div></div></section>
+
+<!-- ===== SECTION 04 · BLOCK 02 · SPÜRBARE VERÄNDERUNG =====
+     Brief-Bild: Image 2 ===================================== -->
+<section class="block"><div class="wrap"><div class="grid">
+  <div class="col-media" style="align-self:center">
+    <div class="ph filled" id="img-02" style="background:#fafaf7;display:flex;align-items:center;justify-content:center"><img src="images/Image%202%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="Spürbare Veränderungen innerhalb weniger Tage" loading="lazy"></div>
+  </div>
+  <div class="col-copy">
+    <div class="badge">2</div>
+    <h2>Spürbare Veränderungen innerhalb weniger Tage</h2>
+    <p>Innerhalb von Tagen, nicht Monaten, werden Sie den Unterschied spüren. Sie werden sich energiegeladener und leichter fühlen und bereits in den ersten Wochen weniger Entzündungen, weniger Blähungen und einen ausgeglicheneren Stoffwechsel feststellen.</p>
+  </div>
+</div></div></section>
+
+<!-- ===== SECTION 05 · BLOCK 03 · DREAM OUTCOME =====
+     Brief-Bild: Image 3 ===================================== -->
+<section class="block alt"><div class="wrap"><div class="grid">
+  <div class="col-media">
+    <div class="ph filled" id="img-03"><img src="images/Image%203%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="Verabschieden Sie sich für immer von einer ungesunden Leber" width="820" height="820" loading="lazy"></div>
+  </div>
+  <div class="col-copy">
+    <div class="badge">3</div>
+    <h2>Verabschieden Sie sich für immer von einer ungesunden Leber</h2>
+    <p>Stellen Sie sich vor: Keine Müdigkeit mehr während des Tages. Ein guter Start in den Tag, weil Ihr Stoffwechsel jetzt gesund funktioniert. Keine Blähungen, keine Entzündungen – und das Beste? Keine fahle Haut mehr.</p>
+    <p>ProbaHepa wirkt genau dort, wo es wichtig ist.</p>
+    <a class="softcta" data-atc href="https://nupureshop.com/products/probaflor-hepa?bundle_variant=15623821066622">👉 Leber täglich unterstützen →</a>
+  </div>
+</div></div></section>
+
+<!-- ===== SECTION 06 · BLOCK 04 · TEUFELSKREIS + ARZT =====
+     Brief-Bild: Image 4 ===================================== -->
+<section class="block"><div class="wrap"><div class="grid">
+  <div class="col-media">
+    <div class="ph filled" id="img-04"><img src="images/Image%204%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="Durchbrechen Sie den Quick-Detox-Kreislauf" width="820" height="820" loading="lazy"></div>
+  </div>
+  <div class="col-copy">
+    <div class="badge">4</div>
+    <h2>Durchbrechen Sie den „Quick-Detox“-Kreislauf</h2>
+    <p><b>Hören Sie auf, ständig dem nächsten schnellen Detox hinterherzujagen.</b> Saftkuren. Detox-Tees. Strenge Diäten. Jeden Montag ein weiterer „Neuanfang“.</p>
+    <p>Sie mögen sich wie ein Neustart anfühlen, doch extreme Routinen lassen sich nur schwer langfristig durchhalten. Und die Unterstützung Ihrer Leber sollte nicht etwas sein, an das Sie immer nur drei Tage am Stück denken. Ihre Leber übernimmt bereits die natürlichen Verarbeitungs- und Ausscheidungsfunktionen des Körpers. Das Ziel besteht nicht darin, sie über Nacht „durchzuspülen“. Der bessere Ansatz ist, ihre normale Funktion durch Ihre täglichen Gewohnheiten kontinuierlich zu unterstützen. ProbaHepa macht die Unterstützung Ihrer Leber mit nur einer sorgfältig formulierten Kapsel zu einer einfachen täglichen Routine.</p>
+    <div class="dquote"><p>„Die Leber ist eng mit dem Darm verbunden und verarbeitet kontinuierlich Stoffe aus dem Verdauungstrakt. Die Unterstützung der Darm-Leber-Achse kann die tägliche Belastung der Leber verringern und zu ihrer normalen Funktion beitragen.“</p>
+      <p class="dattr">Adela Vuković – Research &amp; Development Specialist bei nupure</p></div>
+    <a class="softcta" data-atc href="https://nupureshop.com/products/probaflor-hepa?bundle_variant=15623821066622">👉 Durchbrechen Sie den Quick-Fix-Kreislauf →</a>
+  </div>
+</div></div></section>
+
+<!-- ===== SECTION 07 · BLOCK 05 · EASE OF USE =====
+     Brief-Bild: Image 5 ===================================== -->
+<section class="block alt"><div class="wrap"><div class="grid">
+  <div class="col-media">
+    <div class="ph filled" id="img-05"><img src="images/Image%205%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="Eine Kapsel. Zehn Sekunden." width="560" height="420" loading="lazy"></div>
+  </div>
+  <div class="col-copy">
+    <div class="badge">5</div>
+    <h2>„Eine Kapsel. Zehn Sekunden.“</h2>
+    <p>Keine komplizierte Detox-Kur. Keine Pulver zum Anrühren. Kein strenger Ernährungsplan. Nehmen Sie einfach täglich nach einer Mahlzeit eine ProbaHepa-Kapsel mit einem Glas Wasser ein. Das dauert nur wenige Sekunden und lässt sich problemlos in Ihre Morgen-, Mittags- oder Abendroutine integrieren.</p>
+    <ul class="checks">
+      <li>Nur 1 Kapsel pro Tag</li>
+      <li>30 Kapseln pro Flasche</li>
+      <li>Geschmacksneutral und leicht zu schlucken</li>
+      <li>Vegane Formel</li>
+      <li>Praktische 30-Tage-Routine</li>
+    </ul>
+    <a class="softcta" data-atc href="https://nupureshop.com/products/probaflor-hepa?bundle_variant=15623821066622">👉 Starten Sie Ihre einfache tägliche Routine →</a>
+  </div>
+</div></div></section>
+
+<!-- ===== SECTION 08 · BLOCK 06 · IDENTITÄT =====
+     Brief-Bild: Image 6 ===================================== -->
+<section class="block"><div class="wrap"><div class="grid">
+  <div class="col-media">
+    <div class="ph filled" id="img-06"><img src="images/Image%206%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="Unterstützen Sie das Organ, das im Hintergrund arbeitet" width="820" height="820" loading="lazy"></div>
+  </div>
+  <div class="col-copy">
+    <div class="badge">6</div>
+    <h2>Unterstützen Sie das Organ, das im Hintergrund arbeitet</h2>
+    <p>Ihre Leber erhält nur selten die gleiche Aufmerksamkeit wie Ihr Herz, Ihr Darm oder Ihre Haut – dabei ist sie an Prozessen beteiligt, die beeinflussen, wie Ihr gesamter Körper Nährstoffe und Fette verarbeitet. ProbaHepa wurde entwickelt, um Ihre Leber im Alltag gezielt mit einer durchdachten 5-in-1-Formel zu unterstützen.</p>
+    <p>Im Mittelpunkt steht VitaCholine®, eine hochwertige Cholinquelle. Jede Tageskapsel liefert 82,5 mg Cholin, das zu Folgendem beiträgt:</p>
+    <ul class="checks">
+      <li>Zur Erhaltung einer normalen Leberfunktion</li>
+      <li>Zu einem normalen Fettstoffwechsel</li>
+      <li>Zu einem normalen Homocystein-Stoffwechsel</li>
+    </ul>
+    <p>Kombiniert mit Artischockenextrakt, Mariendistel, Igelstachelbart und hitzeinaktiviertem Lactobacillus paracasei D3-5.</p>
+    <a class="softcta" data-atc href="https://nupureshop.com/products/probaflor-hepa?bundle_variant=15623821066622">👉 Unterstützen Sie Ihre Leber täglich →</a>
+  </div>
+</div></div></section>
+
+<!-- ===== SECTION 09 · BLOCK 07 · SOCIAL PROOF  (optional) =====
+     Zitate = Bewertungen aus dem Brief. Brief-Bild Image 7 hat in
+     diesem Template keinen Slot. ================================= -->
+<section class="block alt"><div class="narrow">
+  <div class="badge">7</div>
+  <h2>Mehr als 502.409 Kunden vertrauen Nupure – mit 4,9 von 5 Sternen!</h2>
+
+  <div class="pquote">
+    <p>„Die Tabletten lassen sich gut schlucken und haben keinen Eigengeschmack. Die Wirkung hat mich bisher überzeugt, da ich mich gut fühle und auch meine Verdauung sich positiv zeigt. Meine Erwartungen wurden auf jeden Fall übertroffen und auch die Einnahme von einer Tablette pro Tag ist angenehm als Dosierung.“</p>
+    <cite>– SelinaK, „Sehr gut“</cite>
+  </div>
+  <div class="pquote">
+    <p>„Ein wirklich gutes Produkt zur Unterstützung der Leberfunktion. Ich nehme dieses Nahrungsergänzungsmittel schon seit einiger Zeit und habe wirklich das Gefühl, dass es wirkt. Mein Völlegefühl nach dem Essen ist verschwunden und ich fühle mich nach dem Essen nicht mehr so energielos.“</p>
+    <cite>– ValeriiaD, „Ein wirklich gutes Produkt zur Unterstützung der Leberfunktion“</cite>
+  </div>
+  <div class="pquote">
+    <p>„Wer seiner Leber was richtig gutes tun möchte, sollte sich dieses Produkt kaufen. Die Packung reicht für 30 Tage! Die Anwendung ist einfach... Jeden Tag nur eine Tablette. Schon. Nach kurzer Zeit habe ich gemerkt, dass ich mich wohler fühle. Gerade wenn das Abnehmen nicht klappt, kann die Leber eine Rolle spielen. Seit ich die Kapsel nehme, habe ich das Gefühl, dass mein Stoffwechsel wieder besser funktioniert.“</p>
+    <cite>– Andrea N, „Sehr gutes Produkt“</cite>
+  </div>
+</div></section>
+
+<!-- ===== SECTION 10 · BLOCK 08 · BRAND MESSAGE  (optional) =====
+     Brief-Bild: Image 8 ======================================== -->
+<section class="block" style="background:var(--sand)"><div class="wrap"><div class="grid">
+  <div class="col-media">
+    <div class="ph filled" id="img-11"><img src="images/Image%208%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="Haben Sie wieder das Gefühl, gut für sich selbst zu sorgen" width="820" height="820" loading="lazy"></div>
+  </div>
+  <div class="col-copy">
+    <div class="badge">8</div>
+    <h2>Haben Sie wieder das Gefühl, gut für sich selbst zu sorgen</h2>
+    <p>Hier geht es nicht um eine weitere aggressive Detox-Challenge. Es geht um das gute Gefühl, jeden Tag eines der am härtesten arbeitenden Organe Ihres Körpers zu unterstützen. Um die Zufriedenheit, eine bessere Routine aufzubauen. Darum, Beständigkeit statt Extreme zu wählen. Darum, Ihrem Körper eine auf die normale Leberfunktion abgestimmte Unterstützung mit Nährstoffen zu bieten – ohne Ihren gesamten Lebensstil auf den Kopf zu stellen. Denn für Ihre Leber zu sorgen, ist eine kleine Gewohnheit, die Teil eines viel größeren Engagements für Ihr langfristiges Wohlbefinden werden kann.</p>
+  </div>
+</div></div></section>
+
+<!-- ===== SECTION 11 · DARK MECHANISM BAND  (optional) =====
+     Brief-Bild: Image 10 ==================================== -->
+<section class="darkband"><div class="narrow">
+  <h2>Wie ProbaHepa wirkt</h2>
+  <div class="ph filled" id="img-12"><img src="images/Image%2010%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="Wie ProbaHepa wirkt" width="440" height="520" loading="lazy"></div>
+  <a class="softcta" data-atc href="https://nupureshop.com/products/probaflor-hepa?bundle_variant=15623821066622">👉 Starten Sie Ihre Routine zur Unterstützung der Leber →</a>
+</div></section>
+
+<!-- ===== SECTION 12 · TIERS · SO WIRKT  (required) =====
+     Nicht im Brief enthalten - Text von der Live-Produktseite.
+     Bild: Image 9 aus dem Brief. ============================= -->
+<section class="tiers"><div class="wrap">
+  <h2>Wie Proba Hepa Lebergesundheit PRO wirkt</h2>
+  <div class="grid">
+  <div class="col-media">
+  <div class="ph filled" id="img-13"><img src="images/Image%209%20name%2020260831_liver-detox-caps_icons-infographic_de.png.png" alt="Inhaltsstoffe von ProbaHepa und ihre Funktion" width="900" height="300" loading="lazy"></div>
+  </div>
+  <div class="col-copy">
+  <div class="tcards">
+    <div class="tcard">
+      <div class="tnum">1</div>
+      <h3>Darmmikrobiom und Darmbarriere</h3>
+      <p>Lactobacillus paracasei unterstützt ein ausgeglichenes Darmmikrobiom und eine stabile Darmbarriere.</p>
+    </div>
+    <div class="tcard">
+      <div class="tnum">2</div>
+      <h3>Weniger Belastung für die Leber</h3>
+      <p>Eine stabile Darmbarriere trägt dazu bei, dass weniger bakterielle Toxine in den Blutkreislauf gelangen.</p>
+    </div>
+    <div class="tcard">
+      <div class="tnum">3</div>
+      <h3>Fette im Stoffwechsel</h3>
+      <p>Cholin unterstützt den Transport von Fetten aus der Leber und trägt zu einem normalen Fettstoffwechsel bei.</p>
+    </div>
+    <div class="tcard">
+      <div class="tnum">4</div>
+      <h3>Galle und Entgiftung</h3>
+      <p>Artischocke und Mariendistel unterstützen Gallenproduktion und natürliche Entgiftungsprozesse der Leber.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+</div></section>
+
+<!-- ===== SECTION 13 · REVIEW CARDS  (optional) =====
+     Karten 1-2 aus dem Brief; Karte 3 von der Live-Produktseite,
+     da der Brief nur zwei Bewertungen für ein 3er-Grid liefert. == -->
+<section class="revs"><div class="wrap">
+  <h2>Was mehr als 52.409 Menschen über ihre Erfahrungen sagen</h2>
+  <div class="rgrid">
+
+    <div class="rcard">
+      <div class="rbody">
+        <div class="rname"><b>AlenaM</b><span class="vbadge">✓ Verifizierter Kauf</span></div>
+        <p class="rmeta">Verifizierte Bewertung</p>
+        <div class="rstars">★★★★★</div>
+        <p class="rtext"><b>Tolles Supplement, das hält was es verspricht</b> „Ein gut zusammengestelltes Supplement, dass den Körper gut unterstützt und die Organe gesund hält. Leicht einzunehmen. Ohne Nachgeschmack.“</p>
+      </div>
+    </div>
+
+    <div class="rcard">
+      <div class="rbody">
+        <div class="rname"><b>AmandaG</b><span class="vbadge">✓ Verifizierter Kauf</span></div>
+        <p class="rmeta">Verifizierte Bewertung</p>
+        <div class="rstars">★★★★★</div>
+        <p class="rtext"><b>Tolle natürliche Inhaltsstoffe</b> „Ich nehme dieses Produkt seit einiger Zeit regelmäßig ein. Die Verpackung ist super für eine einfache Dosierung. Die meist natürlichen Substanzen die im Produkt sind finde ich sehr sehr gut. Die Probiotika die enthalten sind helfen auch bei meiner Verdauung. Ich empfinde auch das Preis-Leistungs-Verhältnis angemessen. Ich vertrage die Kapseln eigentlich sehr gut. Und ich werde das Produkt weiterhin benutzen.“</p>
+      </div>
+    </div>
+
+    <div class="rcard">
+      <div class="rbody">
+        <div class="rname"><b>FelixS</b><span class="vbadge">✓ Verifizierter Kauf</span></div>
+        <p class="rmeta">Verifizierte Bewertung</p>
+        <div class="rstars">★★★★★</div>
+        <p class="rtext"><b>Die Leber dankt</b> „Die Kapseln sind groß und mit Pulver gefüllt. Ich habe keine Probleme diese zu schlucken. Sie sind mir gut bekömmlich. Die Kapseln haben keinen Eigengeruch oder Geschmack im Mund. […] Von der Wirkung durch die durchdachten 5-in-1-Inhaltsstoffe.“</p>
+      </div>
+    </div>
+
+  </div>
+</div></section>
+
+<!-- ===== SECTION 14 · OFFER CARD  (required) =====
+     Nicht im Brief enthalten - Packshot von der Produktseite. === -->
+<section class="offerwrap"><div class="wrap">
+  <div class="offer">
+    <h2>Holen Sie sich ProbaHepa jetzt zum Sonderpreis!</h2>
+    <div class="ph filled" id="img-17"><img src="https://nupureshop.com/cdn/shop/files/01_proba_hepa_30_main_epharma_image_packshot_with_tag_DE.png?v=1760513884&amp;width=680" alt="proba hepa Lebergesundheit PRO, 30 Kapseln" width="340" height="340" loading="lazy"></div>
+    <a class="btn" data-atc href="https://nupureshop.com/products/probaflor-hepa?bundle_variant=15623821066622">
+      <span class="bmain">Jetzt Angebot sichern →</span>
+      <span class="bsub">90-Tage-Geld-zurück-Garantie</span>
+    </a>
+    <hr class="odiv">
+    <p class="demand">Nachfrage: <span class="lbl">HOCH</span> <span class="bar"><i></i></span></p>
+    <p class="stock">4,9 von 5 Sternen – mehr als 502.409 Kunden vertrauen nupure</p>
+    <p class="ship">🚚 Kostenloser Versand ab 30 €!</p>
+  </div>
+</div></section>
+
+<!-- ===== SECTION 15 · FOOTER  (required) ===== -->
+<footer><div class="wrap">
+  <p class="cr">© 2026 nupure. Alle Rechte vorbehalten.</p>
+  <p class="flinks">
+    <a href="https://nupureshop.com/pages/it-recht-datenschutz" target="_blank" rel="noopener">Datenschutz</a> ·
+    <a href="https://nupureshop.com/pages/agb" target="_blank" rel="noopener">AGB</a> ·
+    <a href="https://nupureshop.com/pages/impressum" target="_blank" rel="noopener">Impressum</a>
+  </p>
+  <p class="disc">Zitierte Bewertungen sind echte, verifizierte Kundenbewertungen und teils gekürzt. Individuelle Erfahrungen können abweichen.</p>
+  <p class="disc">Nahrungsergänzungsmittel sind kein Ersatz für eine abwechslungsreiche, ausgewogene Ernährung und eine gesunde Lebensweise. Die angegebene empfohlene tägliche Verzehrmenge darf nicht überschritten werden. Vegan, gluten- und laktosefrei. Kühl, trocken und lichtgeschützt unter 25 °C lagern. Außer Reichweite von Kindern aufbewahren.</p>
+  <p class="disc">Nicht empfohlen für Kinder und Jugendliche unter 18 Jahren, Schwangere und Stillende. Bei Überempfindlichkeit oder Allergien gegen einen der Inhaltsstoffe oder bei Einnahme von Medikamenten konsultieren Sie bitte vor der Anwendung Ihren Arzt.</p>
+  <p class="disc">Bei anhaltenden oder wiederkehrenden Beschwerden empfehlen wir, eine Ärztin oder einen Arzt aufzusuchen.</p>
+</div></footer>
+
+<script>
+  /* Suppress context menu, drag and long-press on media wrappers. */
+  ['contextmenu','dragstart'].forEach(function(ev){
+    document.addEventListener(ev, function(e){
+      if (e.target.closest && e.target.closest('.ph')) e.preventDefault();
+    }, false);
+  });
+</script>
+
+<!-- ===== Site analytics (every PDP) — GrowthBook + Converge pixel ===== -->
+<script async data-api-host="https://cdn.growthbook.io" data-client-key="sdk-mzLYoTpayCvloMg" src="https://cdn.jsdelivr.net/npm/@growthbook/growthbook/dist/bundles/auto.min.js"></script>
+<script src="https://static.runconverge.com/pixels/JoftjA.js" async></script>
+<script>
+  window.cvg||(cvg=function(){cvg.process?cvg.process.apply(cvg,arguments):cvg.queue.push(arguments)},cvg.queue=[]);
+  cvg({method:"track",eventName:"$page_load"});
+</script>
+<!-- ===== Converge cross-domain stitching on outbound PDP links =====
+     This page is hosted off-Shopify, so the pixel does NOT auto-decorate
+     outbound links. Read the __cvg_uid / __cvg_sid cookies the pixel sets and
+     append them to every CTA href on click (fresh, in case the cookies land
+     after first render). Without them Shopify mis-attributes the session as
+     organic. Ref: pdp-builder references/cart-and-crosssell.md section 4f. -->
+<script>
+(function(){
+  function cvgCookie(n){ var m=document.cookie.match('(?:^|; )'+n+'=([^;]*)'); return m?decodeURIComponent(m[1]):''; }
+  function cvgDecorate(url){
+    var uid=cvgCookie('__cvg_uid'), sid=cvgCookie('__cvg_sid'), parts=[];
+    if(uid) parts.push('__cvg_uid='+encodeURIComponent(uid));
+    if(sid) parts.push('__cvg_sid='+encodeURIComponent(sid));
+    if(!parts.length) return url;
+    return url + (url.indexOf('?')>-1?'&':'?') + parts.join('&');
+  }
+  var links = document.querySelectorAll('a[data-atc], a[href*="nupureshop.com/products/"], a[href*="/cart/"]');
+  Array.prototype.forEach.call(links, function(el){
+    if(!el.hasAttribute('data-cvg-base')) el.setAttribute('data-cvg-base', el.getAttribute('href') || '');
+    function decorate(){
+      var base = el.getAttribute('data-cvg-base') || el.getAttribute('href') || '';
+      if(base) el.setAttribute('href', cvgDecorate(base));
+    }
+    ['mousedown','touchstart','click','auxclick','keydown'].forEach(function(ev){
+      el.addEventListener(ev, decorate, {capture:true, passive:true});
+    });
+  });
+})();
+</script>
+</body>
+</html>
