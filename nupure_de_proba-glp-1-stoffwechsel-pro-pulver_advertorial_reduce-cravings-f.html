@@ -4,14 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Der einfachste Weg, deinen Hunger auszutricksen – und ohne schmerzhafte Spritzen abzunehmen</title>
+<script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/47154e51bedb88000cfeea4ed3dc2767.js"></script>
 <link rel="icon" href="https://nupureshop.com/cdn/shop/files/nupure-favicon.png?crop=center&height=32&v=1704810304&width=32">
 <style>
   :root{
-    --plum:#4f7000;          /* headline band */
-    --plum-d:#2f4400;        /* dark mechanism band */
-    --badge:#7ea800;         /* numbered badge + accents */
-    --cream:#f4f8e8;         /* alternating section bg */
-    --sand:#eaf0d8;          /* block 08 bg */
+    --plum:#b95c0c;          /* headline band */
+    --plum-d:#7a3b06;        /* dark mechanism band */
+    --badge:#e07b1e;         /* numbered badge + accents */
+    --cream:#fdf3e7;         /* alternating section bg */
+    --sand:#fbe6d0;          /* block 08 bg */
     --ink:#1a1a1a;
     --body:#3a3a3a;
     --muted:#8a8a8a;
@@ -20,9 +21,9 @@
     --star:#f5a623;
     --verified-bg:#e8f5ec;
     --verified-tx:#1e7a3c;
-    --cta:#d9694a;           /* offer button (matches template) */
-    --cta-d:#c65b3e;
-    --quote-bg:#eef6da;
+    --cta:#f09e40;           /* offer button — nupure storefront orange */
+    --cta-d:#e2902f;
+    --quote-bg:#fdefdc;
     --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   }
@@ -115,7 +116,7 @@
   /* ---- doctor quote ---- */
   .dquote{margin:22px 0 6px;background:var(--quote-bg);border-left:4px solid var(--badge);
           border-radius:0 10px 10px 0;padding:20px 22px}
-  .dquote p{margin:0;font-style:italic;color:#38431f}
+  .dquote p{margin:0;font-style:italic;color:#7a4209}
   .dattr{margin:14px 0 0;font-weight:700;color:var(--ink);font-style:normal;font-size:15px;line-height:1.45}
 
   /* ---- pull quotes (block 07) ---- */
@@ -131,7 +132,7 @@
   .darkband h2{margin:0 0 26px;color:#fff;font-size:22px;font-weight:800;
                text-transform:uppercase;letter-spacing:.09em}
   .darkband .ph{max-width:440px;margin:0 auto;border-color:rgba(255,255,255,.32);background:rgba(255,255,255,.07)}
-  .darkband .ph .dim{color:#d6e3b4}.darkband .ph .ty{color:#b8c993}
+  .darkband .ph .dim{color:#f6d8b4}.darkband .ph .ty{color:#e0bb8e}
   .darkband .softcta{color:#fff;margin-top:26px}
 
   /* ---- tiers ---- */
@@ -486,6 +487,39 @@
 <script>
   window.cvg||(cvg=function(){cvg.process?cvg.process.apply(cvg,arguments):cvg.queue.push(arguments)},cvg.queue=[]);
   cvg({method:"track",eventName:"$page_load"});
+</script>
+<script>
+  /* Microsoft Clarity — nupure project ID */
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window,document,"clarity","script","xflswh7xod");
+</script>
+<!-- Mask the Cookie Script consent banner so it doesn't dominate Clarity heatmaps/recordings.
+     The banner is injected at runtime, so we tag its containers with data-clarity-mask as they appear. -->
+<script>
+  (function () {
+    var SELECTORS = [
+      '#cookiescript_injected',
+      '#cookiescript_injected_wrapper',
+      '#cookiescript_badge',
+      '#cookiescript_categories'
+    ];
+    function mask() {
+      SELECTORS.forEach(function (sel) {
+        var el = document.querySelector(sel);
+        if (el && !el.hasAttribute('data-clarity-mask')) {
+          el.setAttribute('data-clarity-mask', 'true');
+        }
+      });
+    }
+    mask();
+    var obs = new MutationObserver(mask);
+    obs.observe(document.documentElement, { childList: true, subtree: true });
+    // Banner is injected within a few seconds; stop watching afterwards.
+    setTimeout(function () { obs.disconnect(); }, 15000);
+  })();
 </script>
 <!-- ===== Converge cross-domain stitching on outbound PDP links =====
      This page is hosted off-Shopify, so the pixel does NOT auto-decorate
